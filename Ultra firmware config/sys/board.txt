@@ -1,0 +1,1 @@
+stepper.TmcDiagPins = { NoPin, PB_10, PC_4 }

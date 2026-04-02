@@ -1,5 +1,5 @@
 M400                  ; Wait for current moves to finish
-M913 X30 B30          ; drop motor current
+M913 X50 B50          ; drop motor current
 M569 P1 V1            ; put driver 1 into stealth chop mode
 M569 P2 V1            ; put driver 2 into stealth chop mode
 M400
@@ -17,4 +17,4 @@ M913 X100 B100        ; return current to 100%
 M569 P1 V4000         ; put driver 1 into spread cycle mode
 M569 P2 V4000         ; put driver 2 into spread cycle mode
 M400
-G1 B0 F12000
+G1 B90 F12000

@@ -30,8 +30,8 @@ M98 P"to4axis.g"
 ; M98 P"topolar.g"
 
 ; sensorless endstop configuration
-M915 X H100 R1 F0 S0
-M915 B R1 F0 S-10                                                   
+M915 X R1 F0 S-127
+M915 B R1 F0 S-127                                                  
 
 ; For endstops, refer to kinematics files                                                  
 
@@ -45,7 +45,7 @@ M915 B R1 F0 S-10
 ; ! is essential to enable pullup resistor, without it microswitches wont work
 ; ^ inverts pins
 ;M558 P5 C"^!zstop" H5 F2000:500 T6000 A1                   ; set Z probe type to switch and the dive height + speeds 
-M558 P5 C"^!PC_5" H5 F2000:500 T6000 A1
+M558 P5 C"^PD_12" H5 F2000:500 T6000 A1
 ;G31 P500 X0 Y0 Z-8.5                                       ; set Z probe trigger value, offset and trigger height
 G31 P500 X0 Y0 Z1
 
