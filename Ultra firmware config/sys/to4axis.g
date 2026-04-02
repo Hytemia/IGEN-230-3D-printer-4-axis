@@ -17,7 +17,7 @@ M92 C88.8888 X100.00 Z400.00 B100.00 E932.00                            ; set st
 M566 C600.00 X600.00 Z600.00 B600.00 E300.00                            ; set maximum instantaneous speed changes (mm/min)
 M203 C21600.00 X20000.00 Z8000.00 B21600.00 E3600.00                    ; set maximum speeds (mm/min)
 M201 C2000.00 X5000.00 Z1500.00 B2000.00 E500.00                        ; set accelerations (mm/s^2)
-M906 C1300 X1300 Z800 B1300 E800 I30                                    ; set motor currents (mA) and motor idle factor in per cent
+M906 C800 X800 Z1300 B800 E800 I30                                    ; set motor currents (mA) and motor idle factor in per cent
 
 ; Axis Limits
 M208 C-20000000 X-37.5 Z-50 B-180 S1                                      ; set axis minima. 
