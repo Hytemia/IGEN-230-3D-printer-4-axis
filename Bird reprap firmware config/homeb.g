@@ -16,4 +16,4 @@ M913 X100 B100        ; return current to 100%
 M569 P1 V4000         ; put driver 1 into spread cycle mode
 M569 P2 V4000         ; put driver 2 into spread cycle mode
 M400
-G1 B0 F12000
+G1 B-90 F12000

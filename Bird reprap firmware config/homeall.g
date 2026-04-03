@@ -78,8 +78,8 @@ if move.kinematics.name == "Polar"
     G1 H2 U{-90-global.B_OFFSET} V{90+global.B_OFFSET} F20000 
     G92 U0 V0
 else
-    M98 P"homeb.g"
     M98 P"homex.g"
+    M98 P"homeb.g"
     M98 P"homey.g"
     M98 P"homec.g"
     M98 P"homez.g"
