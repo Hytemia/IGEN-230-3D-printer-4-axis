@@ -53,7 +53,8 @@ G31 P500 X0 Y0 Z-20
 M140 H-1                                                   ; disable heated bed (overrides default heater mapping)
 M308 S0 P"e0temp" Y"thermistor" T100000 B4956 C1.587780e-7 ; configure sensor 0 as thermistor on pin e0temp
 M950 H0 C"e0heat" T0                                       ; create nozzle heater output on e0heat and map it to sensor 0
-M307 H0 R2.703 K0.364:0.000 D11.05 E1.35 S1.00 B0 V23.7    ; pwm config from autotune
+;M307 H0 R2.703 K0.364:0.000 D11.05 E1.35 S1.00 B0 V23.7    ; pwm config from autotune
+M307 H0 R2.107 K1.015:0.589 D7.37 E1.35 S1.00 B0 V23.3
 M143 H0 S270                                               ; set temperature limit for heater 0 to 120C
 M302 P1                                                    ; allow cold extrudes
 
