@@ -9,5 +9,13 @@ This is a 4 month long capstone project for 2nd year Integrated Engineering Stud
 This repo is being updated intermittently with the goal of a complete build guide when finished.
 
 ## Mechanical
-#
+# Parts needed
+FLY E3 PRO Ultra Control Board		1\
+MGN9C 250mm Linear Rail			      1\
+MGN12H 250mm Linear Rail			    2\
+MGN9C Rail Block				          2\
+MGN12H Rail Block				          2\
+CnC aluminium plates              2\
+The rest are 3D printed and takend from the Ender3
+
 ### Firmware
